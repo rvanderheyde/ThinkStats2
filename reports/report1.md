@@ -3,9 +3,9 @@ Are Diseases of the Heart Periodic?
 
 There are many diseases that are known to be periodic. Influenza and Pnuemonia, for example, see an increase in incidence during the winter months, which is why this season is known as "Cold and Flu season." This increase in incidence also leads to an increase in deaths due to Influenza and Pnuemonia, which can be seen in the figures below. 
 
-[image1]
+![image1][chart1]
 
-[image2]
+![image2][chart2]
 
 But is heart disease periodic? To answer that, I examined the [CDC Wonder](https://wonder.cdc.gov/ucd-icd10.html) database on the underlying cause of death for the state of California organized by month. It turns out there are 23 groupings of heart disease that are stored in the database. These are:
 
@@ -37,3 +37,12 @@ Note that a number of these contain multiple diseases ('Major Cardiovascular Dis
 
 Results
 -----------
+
+The majority of the groupings of heart diseases show some amount of periodicity. For example, I plotted the data from the 'Major Cardiovascular Disease' group over time which looked like this: 
+
+![image][chart3]
+
+
+[chart1]: 
+[chart2]: 
+[chart3]: 
