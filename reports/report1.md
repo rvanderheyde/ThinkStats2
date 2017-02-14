@@ -33,4 +33,7 @@ But is heart disease periodic? To answer that, I examined the [CDC Wonder](https
 * 'Other diseases of arteries, arterioles and capillaries (I72-I78)'
 * 'Other disorders of circulatory system (I80-I99)'
 
-Note that a number of these contain multiple diseases ('Major Cardiovascular Diseases' for example); however this shouldn't have a major effect on the conclusions drawn. The full method is recorded in this [notebook]()
+Note that a number of these contain multiple diseases ('Major Cardiovascular Diseases' for example); however this shouldn't have a major effect on the conclusions drawn. The full method is recorded in this [notebook](https://github.com/rvanderheyde/ThinkStats2/blob/master/code/report1.ipynb)
+
+Results
+-----------
