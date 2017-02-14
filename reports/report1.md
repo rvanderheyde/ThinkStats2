@@ -48,7 +48,7 @@ You can clearly see that the plot resembles the Influeza and Pneumonia one above
 
 I removed the zero frequency component, because it represents a vertical shift, which dwarves the rest of the peaks on the PSD chart. The peak corresponds to a frequency of 3.17e-08 Hz, which comes out to a sample every 365 days or 1 year. 
 
-[chart1]: 
-[chart2]: 
+[chart1]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-3
+[chart2]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-4
 [chart3]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown
-[chart4]: 
+[chart4]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-2
