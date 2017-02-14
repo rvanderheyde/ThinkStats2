@@ -7,9 +7,7 @@ There are many diseases that are known to be seasonal or periodic. Influenza and
 
 ![image2][chart2]
 
-But is heart disease periodic? And why would it matter if it was? If it turns out that heart disease is periodic, it could point to risk factors that can be eliminated or reduced, having an effect on the number of lives lost each year to heart disease.  
-
-To answer the first question, I examined the [CDC Wonder](https://wonder.cdc.gov/ucd-icd10.html) database on the underlying cause of death for the state of California organized by month. It turns out there are 23 groupings of heart disease that are stored in the database. These are:
+According to the CDC, Heart disease is the biggest killer of Americans. If it turns out that heart disease is periodic, it could point to risk factors that can be eliminated or reduced, having an effect on the number of lives lost each year to heart disease. To determine if heart disease deaths exhibit seasonality, I examined the [CDC Wonder](https://wonder.cdc.gov/ucd-icd10.html) database on the underlying cause of death for the state of California organized by month. It turns out there are 23 groupings of heart disease that are stored in the database. These are:
 
 * 'Major cardiovascular diseases (I00-I78)'
 * '#Diseases of heart (I00-I09,I11,I13,I20-I51)'
@@ -35,7 +33,7 @@ To answer the first question, I examined the [CDC Wonder](https://wonder.cdc.gov
 * 'Other diseases of arteries, arterioles and capillaries (I72-I78)'
 * 'Other disorders of circulatory system (I80-I99)'
 
-Note that a number of these contain multiple diseases ('Major Cardiovascular Diseases' for example); however this shouldn't have a major effect on the conclusions drawn. The full method is recorded in this [notebook](https://github.com/rvanderheyde/ThinkStats2/blob/master/code/report1.ipynb)
+Note that a number of these contain multiple diseases ('Major Cardiovascular Diseases' for example); however this shouldn't have a major effect on the conclusions drawn. The full methods are recorded in this [notebook](https://github.com/rvanderheyde/ThinkStats2/blob/master/code/report1.ipynb)
 
 Results
 -----------
