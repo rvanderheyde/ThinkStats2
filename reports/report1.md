@@ -52,7 +52,7 @@ I removed the zero frequency component, because it represents a vertical shift, 
 
 Apparently, this is a known phenomenon. Auda Fares wrote an [article](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3662093/) titled "Winter Cardiovascular Disease Phenomenon" in the April 2013 edition of the North American Journal of Medicine synthesizing the literature on the phenomenon. Earlier, Dimitrios Seretakis; Pagona Lagiou, MD; Loren Lipworth, DSc; et al, wrote an [article](http://jama.jamanetwork.com/article.aspx?articleid=418241) in JAMA concerning the "Changing Seasonality of Mortality From Coronery Heart Disease" in September of 1997, so this is a well known phenomenon. Yet the exact cause of this hasn't been determined. Most suggest that it is some environmental effect, such as temperature or lack of physical activity, but this hasn't been proven fully. 
 
-In the future, it might be interesting to examine some of the proposed causes for this phenomenon. 
+In the future, it might be useful to examine some of the proposed causes for this phenomenon. 
 
 [chart1]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-3
 [chart2]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-4
