@@ -1,1 +1,2 @@
 This report seeks to answer the question: does heart disease have a similar seasonality like that of Influenza? To answer this, an exploration of the CDC's Wonder database on the underlying causes of death was done on the monthly data for the state of California. It concludes that for the majority of heart diseases the dominant frequency component is at the frequency corresponding to a period of 1 year, which means that most types of heart disease are indeed periodic over a year.
+[report](https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/report1.md)
