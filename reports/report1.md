@@ -38,11 +38,17 @@ Note that a number of these contain multiple diseases ('Major Cardiovascular Dis
 Results
 -----------
 
-The majority of the groupings of heart diseases show some amount of periodicity. For example, I plotted the data from the 'Major Cardiovascular Disease' group over time which looked like this: 
+The majority of the groupings of heart diseases show some amount of periodicity. For example, I plotted the data from the 'Major Cardiovascular Disease' group over time which looked like the figure below.
 
 ![image][chart3]
 
+You can clearly see that the plot resembles the Influeza and Pneumonia one above. To find out what the major frequency component is, I created a plot of the power spectral density of the time series, which you can see below.
+
+![image][chart4]
+
+I removed the zero frequency component, because it represents a vertical shift, which dwarves the rest of the peaks on the PSD chart. The peak corresponds to a frequency of 3.17e-08 Hz, which comes out to a sample every 365 days or 1 year. 
 
 [chart1]: 
 [chart2]: 
-[chart3]: 
+[chart3]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown
+[chart4]: 
