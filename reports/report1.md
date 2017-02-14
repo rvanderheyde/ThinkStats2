@@ -7,7 +7,9 @@ There are many diseases that are known to be periodic. Influenza and Pnuemonia, 
 
 ![image2][chart2]
 
-But is heart disease periodic? To answer that, I examined the [CDC Wonder](https://wonder.cdc.gov/ucd-icd10.html) database on the underlying cause of death for the state of California organized by month. It turns out there are 23 groupings of heart disease that are stored in the database. These are:
+But is heart disease periodic? And why would it matter if it was? If it turns out that heart disease is periodic, it could point to risk factors that can be eliminated or reduced, having an effect on the number of lives lost each year to heart disease.  
+
+To answer the first question, I examined the [CDC Wonder](https://wonder.cdc.gov/ucd-icd10.html) database on the underlying cause of death for the state of California organized by month. It turns out there are 23 groupings of heart disease that are stored in the database. These are:
 
 * 'Major cardiovascular diseases (I00-I78)'
 * '#Diseases of heart (I00-I09,I11,I13,I20-I51)'
