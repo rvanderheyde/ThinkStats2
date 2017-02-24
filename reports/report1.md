@@ -1,7 +1,7 @@
 Are Diseases of the Heart Seasonal?
 ======================================
 
-There are many diseases that are known to be seasonal or periodic. Influenza and Pnuemonia, for example, see an increase in incidence during the winter months, which is why this season is known as "Cold and Flu season." This increase in incidence also leads to an increase in deaths due to Influenza and Pnuemonia, which can be seen in the figures below. 
+Many diseases are known to be seasonal or periodic. Influenza and Pnuemonia, for example, increase in incidence during the winter months, which is why this season is known as "Cold and Flu season." This increase leads to an increase in deaths due to Influenza and Pnuemonia. The figures below show the seasonality of deaths due to Influenza and Pneumonia. In the first figure, the shape of the time series is roughly that of a sine wave, showing that deaths are periodic over some time period. In the second figure, the deaths in the winter months are much greater than any other time, showing that peaks in the previous figure correspond to the winter months.
 
 ![image1][chart1]
 
