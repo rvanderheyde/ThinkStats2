@@ -1,4 +1,4 @@
-Title
+Most Terrorism is Local
 ================
 
 In this report, I explored the Global Terrorism Database (GTD). The database contains a collection of entries with information about terror attacks since 1970. Data from the year 1993 is incomplete, and so is not included in the dataset. I started my exploration by looking at the trends in attacks over time. It is pretty clear that there are a few notable trends. First, the total number of terrorist attacks and the average number of people killed in an attack have increased throughout the world. This is shown in Figure 1 and Figure 2. Looking at Figure 1, you can see that the residuals are very large over the last 4 points on the graph. These correspond to the years 2011-2015, which shows the impact the rise of the Islamic State of Iraq and the Levant (ISIL) has had on the data. Both of the slopes of the fitted lines are statistically significant and positive with p-values less than 0.01, but the slope of the deadliness of an attack is small. However, this is with the number of attacks increasing also, so the tiny increase in deadliness has lead to a larger number of individuals dying from terrorism each year.  
