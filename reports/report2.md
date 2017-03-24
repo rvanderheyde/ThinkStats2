@@ -15,6 +15,7 @@ After exploring the database, I asked what factors make a country a target for a
 
 Results
 -----------
+![figure][chart4]
 
 It turns out that the prevalence international terrorism is so minimal that no real conclusions can be drawn for a groups and in general. ISIL has a total of 7 terror attacks marked as international logistics, and they are all in the neighboring states of Turkey and Lebanon. The actual terrorist group with the most international terrorist attacks is Al-Shabaab, the group based in Somalia, and all of its international attacks are on nearby or neighboring nations as well. Therefore, it seems that the juiciest targets for terrorist are their own backyard and their neighbors. 
 
