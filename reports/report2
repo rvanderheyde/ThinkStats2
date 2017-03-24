@@ -1,0 +1,14 @@
+Title
+================
+
+In this report, I explored the Global Terrorism database. The database contains a collection of entries with information about terror attacks since 1970. Data from the year 1993 is incomplete, and so is not included in the dataset. I started my exploration by looking at the trends in attacks over time. It is pretty clear that there are a few notable trends. First, the total number of terrorist attacks and the average number of people killed in an attack have increased throughout the world. This is shown in Figure 1 and Figure 2. Looking at Figure 1, you can see that the residuals are very large over the last 4 points on the graph. These correspond to the years 2011-2015, which shows the impact the rise of the Islamic State of Iraq and the Levant (ISIL) has had on the data. Both of the slopes of the fitted lines are statistically significant and positive with p-values less than 0.01, but the slope of the deadliness of an attack is small. However, this is with the number of attacks increasing also, so the tiny increase in deadliness has lead to a larger number of individuals dying from terrorism each year.  
+
+[figure1]
+
+[figure2]
+
+The regional hotspots of terrorism have also shifted over time. It has only been over the last two decades that the Middle East and South Asian regions have seen the greatest number of terrorist attacks. This is shown in Figure 3. However, while Figure 3 does nicely show how history has changed, it does not give any real insights that could not be found in a textbook. The plot of attacks by specific terror groups over time has a similar result, but due to the number of terror groups that have existed is more difficult to visualize cleanly. Part of this difficulty is that nearly 46 percent of terror attacks are done by unknown groups, which also adds some difficulty in trying to answer questions about how groups operate. The failure to identify the perpetrating group means that it is impossible to tell if the attack involved international logistics or not. 54 percent of attacks lack the domestic vs internationally planned classification, but unless 86 percent of the unkown are international, the majority of terrorist attacks are planned domestically. 
+
+[figure3]
+
+After exploring the database, I decided to answer the question, what 
