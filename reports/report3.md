@@ -26,6 +26,7 @@ Despite the narrowness in the distributions of the parameters for the Weibull di
 This is shown in the figures above where the Education and U.S. Foreign Affairs topics, have large overlap in the output distributions, as well as The New York Times and USA Today sources. What this probably indicates is that something else drives a story's word count. This could be industry standards, which prevents stories from deviating in length from each other too much between different outlets and topics. This could also be due to an insufficient amount of data once broken down between sources and topics. Each source had only a couple hundred stories, which might not be sufficient to differentiat two sources or topics.
 
 ![figure 8][chart8]
+
 [Section quantifiying difference between NYTimes and CNN.com]
 
 Due to time constraints, I was unable to explore the broadcast news portion of the dataset. However, the analysis done above should work similarly for broadcast news, and maybe there will be more differences between sources and topics in that area.
