@@ -20,12 +20,12 @@ Figure 3 shows a contour plot of the probability of a certain value of k and lam
 
 Despite the narrowness in the distributions of the parameters for the Weibull distribution, it does not appear that this indicates any large differences between sources and topics. While there are some differences between the distributions, the overlap is too large to draw any predictive value from this approach.
 
-[figure 6]
-[figure 7]
+![figure 6][chart6]
+![figure 7][chart7]
 
 This is shown in the figures above where the Education and U.S. Foreign Affairs topics, have large overlap in the output distributions, as well as The New York Times and USA Today sources. What this probably indicates is that something else drives a story's word count. This could be industry standards, which prevents stories from deviating in length from each other too much between different outlets and topics. This could also be due to an insufficient amount of data once broken down between sources and topics. Each source had only a couple hundred stories, which might not be sufficient to differentiat two sources or topics.
 
-[figure 8]
+![figure 8][chart8]
 [Section quantifiying difference between NYTimes and CNN.com]
 
 Due to time constraints, I was unable to explore the broadcast news portion of the dataset. However, the analysis done above should work similarly for broadcast news, and maybe there will be more differences between sources and topics in that area.
@@ -35,3 +35,6 @@ Due to time constraints, I was unable to explore the broadcast news portion of t
 [chart3]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-12
 [chart4]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-13
 [chart5]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-14
+[chart6]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-15
+[chart7]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-16
+[chart8]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-17
