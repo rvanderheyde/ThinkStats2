@@ -30,4 +30,4 @@ This is shown in the figures above where the Education and U.S. Foreign Affairs 
 
 Due to time constraints, I was unable to explore the broadcast news portion of the dataset. However, the analysis done above should work similarly for broadcast news, and maybe there will be more differences between sources and topics in that area.
 
-[chart1]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-5
+[chart1]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-10
