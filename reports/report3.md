@@ -7,16 +7,16 @@ In this report, I explored the Pew Research Center's News Coverage Index dataset
 
 Figure 1 above shows the cummulative distribution function of the story word count for all printed news media in the dataset. This includes traditional print sources such as The New York Times and Washington Post as well as their online versions, and solely online news sites such as FoxNews.com and CNN.com. From this, the majority of printed articles are less than 2000 words with a few outliers. 
 
-[Figure 2]
+![Figure 2][chart2]
 
 Figure 2 shows the CDF of the word count of non-broadcoast media as shown in Figure 1 plotted with an analytic distribution that matches the data fairly well. For this data, it appears that a Weibull distribution matches the shape well, but slightly underestimates the frequency of longer stories. Using this information, we can predict the most likely values for the parameters of the Weibull distribution, k and lambda based on different data, to see how the distribution is affected by the source, topic, geographic focus, and lead newsmaker. To do this, I extend the classes Suite and Joint from ThinkBayes to create the Article class, which has a modified likelihood method that returns the likelihood of the word count showing up under a Weibull distribution with hypothesized k and lambda.  
 
-[Figure 3] 
+![Figure 3][chart3]
 
 Figure 3 shows a contour plot of the probability of a certain value of k and lambda after the updating the Article class with word counts from The New York Times. The distance between contours is small meaning that it is highly likely that the value of the parameters are contained in that spot on the chart. This is clearer in the pmfs of the two parameters shown in Figure 4 and 5 below.
 
-[figure 4]
-[figure 5]
+![figure 4][chart4]
+![figure 5][chart5]
 
 Despite the narrowness in the distributions of the parameters for the Weibull distribution, it does not appear that this indicates any large differences between sources and topics. While there are some differences between the distributions, the overlap is too large to draw any predictive value from this approach.
 
@@ -31,3 +31,7 @@ This is shown in the figures above where the Education and U.S. Foreign Affairs 
 Due to time constraints, I was unable to explore the broadcast news portion of the dataset. However, the analysis done above should work similarly for broadcast news, and maybe there will be more differences between sources and topics in that area.
 
 [chart1]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-10
+[chart2]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-11
+[chart3]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-12
+[chart4]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-13
+[chart5]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-14
