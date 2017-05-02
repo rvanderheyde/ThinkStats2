@@ -1,7 +1,7 @@
 All the News
 =========
 
-In this report, I explored the Pew Research Center's News Coverage Index dataset. It contains data on stories published by different news sources over the period from January to May 2012. The stories in the dataset number 20,447 of which 1,977 are from newspapers, 3242 from online, 5,186 from network television, 6,472 from cable news, and 3,570 from radio programs. Variables encoded included story date, ID, prominance, duration or word count, source, format, and topic. Duration or word count seem to me like good proxies for what the media cares about (and maybe what the public cares about), as a newspaper or cable news station will spend more ink or time respectively on a more important story to them than a less important one. From this we must ask, can we predict how a story will be covered in terms of duration and word count?
+What does the media value? To answer that I explored the Pew Research Center's News Coverage Index dataset from 2010 and 2012. It contains data on stories published by different news sources over the period from January to December 2010 and January to May 2012 respectively. The stories in the 2012 dataset number 20,447 of which 1,977 are from newspapers, 3242 from online, 5,186 from network television, 6,472 from cable news, and 3,570 from radio programs, with an additional 50,000 stories from the 2010 dataset. Variables encoded included story date, ID, prominance, duration or word count, source, format, and topic. Duration or word count seem to be decent proxies for what the media cares about (and maybe what the public cares about), as a newspaper or cable news station will spend more ink or time respectively on a more important story to them than a less important one. 
 
 ![figure1][chart1]
 
@@ -18,18 +18,20 @@ Figure 3 shows a contour plot of the probability of a certain value of k and lam
 ![figure 4][chart4]
 ![figure 5][chart5]
 
-Despite the narrowness in the distributions of the parameters for the Weibull distribution, it does not appear that this indicates any large differences between sources and topics. While there are some differences between the distributions, the overlap is too large to draw any predictive value from this approach.
+Despite the narrowness in the distributions of the parameters for the Weibull distribution, it does not appear that this indicates any large differences between sources and topics. While there are some differences between the distributions, the overlap is too large to draw any conclusions.
 
 ![figure 6][chart6]
 ![figure 7][chart7]
 
-This is shown in the figures above where the Education and U.S. Foreign Affairs topics, have large overlap in the output distributions, as well as The New York Times and USA Today sources. What this probably indicates is that something else drives a story's word count. This could be industry standards, which prevents stories from deviating in length from each other too much between different outlets and topics. This could also be due to an insufficient amount of data once broken down between sources and topics. Each source had only a couple hundred stories, which might not be sufficient to differentiat two sources or topics.
+This is shown in the figures 6 and 7 above where the Education and U.S. Foreign Affairs topics, have large overlap in the output distributions, as well as The New York Times and USA Today sources. What this probably indicates is that something else drives a story's word count. This could be industry standards, which prevents stories from deviating in length from each other too much between different outlets and topics. This could also be due to an insufficient amount of data once broken down between sources and topics. Each source had only a couple hundred stories, which might not be sufficient to differentiate two sources or topics. However, the standard deviation between the means of the word count for different sources and between different topics was twice as large; this was also seem in the duration of broadcast media.
 
 ![figure 8][chart8]
 
-[Section quantifiying difference between NYTimes and CNN.com]
+It is also true that there is a clear difference between print and online news media. As shown in figure 8 above, CNN.com has shorter stories than the print version of the New York Times does, with a difference in their mean story length of 672 words.  Unfortunately, the data set is lacking more variables that could explain the difference, but clearly the type of the media has a large effect as the mean word count of the print version of the Los Angeles Times and LATimes.com (4pm capture) differ by 779 words. However, longer stories online does not necessarily mean that vistors stay longer. According to Nielson's 2012 report on news websites, visitors to CNN.com stayed 35 minutes and 27 seconds on average, whereas visitors to the NYTimes.com (whose story word count average is also larger that CNN.com's by over 300 words) stayed for only 19 minutes and 16 seconds. However, this may have nothing to do with the word count of stories on these websites and everything to do with the presence of various media types such as videos and slideshows, which CNN.com might have more of (considering it has a cable news show also) or placed on their page better. 
 
-Due to time constraints, I was unable to explore the broadcast news portion of the dataset. However, the analysis done above should work similarly for broadcast news, and maybe there will be more differences between sources and topics in that area.
+So, from all of this it seems that on the whole sources vary more on word count (and duration) than topics due, that there is a difference between the detail in a story based on its media sector. Unfortunately, these were the only conclusions that could be drawn. I looked for different datasets containing information on the news media, such as consumers' beliefs or add revenue, but was not able to find anything significant. The closest I got to something interesting was Pew's State of the Media Report, which has a table containing circulation numbers for the top 25 newspapers. However, the set of newspapers that make up the top 25 did not have enough overlap with the newspapers included in the NCI dataset.
+
+[Nielson Report](http://www.nielsen.com/us/en/insights/news/2012/may-2012-top-u-s-web-brands-and-news-websites.html)
 
 [chart1]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-10
 [chart2]: https://github.com/rvanderheyde/ThinkStats2/blob/master/reports/Unknown-11
